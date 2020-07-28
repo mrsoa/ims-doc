@@ -1,18 +1,11 @@
 ---
 nav:
-  title: Components
+  title: 联系我们
   path: /components
 ---
 
-## Foo
+## 联系我们
 
-Demo:
-
-```tsx
-import React from 'react';
-import { Foo } from 'myapp';
-
-export default () => <Foo title="First Demo" />;
-```
-
-More skills for writing demo: https://d.umijs.org/guide/demo-principle
+- 联系地址：北京市丰台区华耐家居集团
+- 联系电话：4006-120-122
+- 联系邮箱：duanzongwen@51eaju.com
