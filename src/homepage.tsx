@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { Card, Typography, Steps, Divider } from 'antd';
+import { Card, Typography, Steps, Divider, Carousel } from 'antd';
 const { Title } = Typography;
 const { Step } = Steps;
+
+import './index.less';
 
 const gridStyle = {
   width: '20%',
@@ -22,6 +24,23 @@ export default class index extends Component {
   render() {
     return (
       <div>
+        <div>
+          <Carousel autoplay effect="fade">
+            <div>
+              <img
+                src="https://mrduan.oss-cn-beijing.aliyuncs.com/openapi/openapi-background.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img src="/image/carousel-2.jpg" alt="" />
+            </div>
+            <div>
+              <img src="/image/carousel-3.jpg" alt="" />
+            </div>
+          </Carousel>
+        </div>
+
         <Divider />
         <Title level={3} style={titleStyle}>
           <img src="https://mrduan.oss-cn-beijing.aliyuncs.com/openapi/%E5%8A%A8%E6%80%81.png" />

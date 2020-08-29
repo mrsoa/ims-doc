@@ -1,5 +1,6 @@
 ---
 title: 获取token
+path: /token
 order: 1
 ---
 
