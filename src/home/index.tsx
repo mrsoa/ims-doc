@@ -89,16 +89,16 @@ export default class index extends Component {
               <ApiItem
                 span="6"
                 image={apiIcon3}
-                name="取消订单"
+                name="订单取消"
                 desc="查看说明文档"
-                path="/接口文档/取消订单"
+                path="/接口文档/订单取消"
               />
               <ApiItem
                 span="6"
                 image={apiIcon4}
-                name="电子回单"
+                name="库存转移"
                 desc="查看说明文档"
-                path="/"
+                path="/接口文档/库存转移上传"
               />
               <ApiItem
                 span="6"
@@ -139,7 +139,7 @@ export default class index extends Component {
               {
                 date: '2020-07-29',
                 desc:
-                  '订单服务轨迹查询接口，新增按照客户订单号，查询条件，新增节点状态对照表',
+                  '订单服务轨迹查询接口，新增按照客户订单号，查询条件，新增节点状态对照表查询条件，新增节点状态对照表',
               },
               { date: '2020-07-28', desc: '新增订单服务轨迹查询接口' },
               { date: '2020-07-28', desc: '库存查询接口新增仓库参数' },
@@ -150,7 +150,7 @@ export default class index extends Component {
           />
         </div>
 
-        <div className="SystemDocking ">
+        <div className="SystemDocking " style={{ marginTop: '100px' }}>
           <HomeTitle title="对接系统" />
           <ConnetionSystemShow
             data={[
