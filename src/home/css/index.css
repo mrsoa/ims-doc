@@ -273,6 +273,12 @@ body {
   position: relative;
 }
 
+.containerShow {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto 20px auto;
+}
+
 .preLeft {
   position: absolute;
   top: 50%;
@@ -522,4 +528,12 @@ body {
   min-height: 1px;
   padding-right: 0;
   padding-left: 0;
+}
+
+
+.g-ripple {
+  position: absolute;
+  /* 通过top和left修改位置 */
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
 }

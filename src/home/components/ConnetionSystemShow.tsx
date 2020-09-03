@@ -10,7 +10,7 @@ export default function ConnetionSystemShow(props) {
 
   return (
     <div className="SystemDockingList">
-      <div className="container SystemDockingListDiv">
+      <div className="containerShow SystemDockingListDiv">
         {data.map(item => (
           <div className="col-xs-1-5 col-sm-1-5 col-md-1-5 col-lg-1-5 ">
             <img

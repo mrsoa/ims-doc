@@ -12,7 +12,7 @@ interface UpdateLogProps {
 export default function UpdateLog(props: UpdateLogProps) {
   const { data } = props;
   return (
-    <div className="container">
+    <div className="container" style={{ margin: '30 auto' }}>
       <div className="col-md-1 col-sm-1 col-xs-1 col-lg-1"></div>
       <div className="col-md-12 col-sm-12 col-xs-12 col-lg-12 apiMessageList">
         {data.map(item => (

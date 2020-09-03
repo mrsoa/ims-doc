@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Col } from 'antd';
+import { RippleButton } from '../../ripplebuttom/ripple-button';
 
 const apiItemStyle = {
   width: '100px',
@@ -59,7 +60,7 @@ export default function ApiItem(props: ApiItemProps) {
   }, []);
 
   return (
-    <Col className="gutter-row" span={span}>
+    <div className="col-md-3 col-sm-4 col-xs-6">
       <div
         className="containerList"
         onMouseEnter={mouseEnter}
@@ -73,7 +74,7 @@ export default function ApiItem(props: ApiItemProps) {
         <img src={image} alt="" style={apiItemStyle} alt=""></img>
         <span>{name}</span>
         <a
-          className="waves ts-btn"
+          className="waves ts-btn ripple"
           href={path}
           style={
             state
@@ -90,6 +91,6 @@ export default function ApiItem(props: ApiItemProps) {
           {desc}
         </a>
       </div>
-    </Col>
+    </div>
   );
 }
