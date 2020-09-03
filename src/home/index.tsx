@@ -138,8 +138,7 @@ export default class index extends Component {
             data={[
               {
                 date: '2020-07-29',
-                desc:
-                  '订单服务轨迹查询接口，新增按照客户订单号，查询条件，新增节点状态对照表查询条件，新增节点状态对照表',
+                desc: '订单服务轨迹查询接口，新增按照客户订单号，查询条件',
               },
               { date: '2020-07-28', desc: '新增订单服务轨迹查询接口' },
               { date: '2020-07-28', desc: '库存查询接口新增仓库参数' },
@@ -150,7 +149,10 @@ export default class index extends Component {
           />
         </div>
 
-        <div className="SystemDocking " style={{ marginTop: '100px' }}>
+        <div
+          className="SystemDocking "
+          style={{ marginTop: '100px', marginBottom: '350px' }}
+        >
           <HomeTitle title="对接系统" />
           <ConnetionSystemShow
             data={[
