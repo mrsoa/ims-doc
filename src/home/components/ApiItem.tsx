@@ -60,7 +60,7 @@ export default function ApiItem(props: ApiItemProps) {
   }, []);
 
   return (
-    <div className="col-md-3 col-sm-4 col-xs-6">
+    <div className="col-md-3 col-sm-6 col-xs-6">
       <div
         className="containerList"
         onMouseEnter={mouseEnter}
