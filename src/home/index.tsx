@@ -96,7 +96,7 @@ export default class index extends Component {
               <ApiItem
                 span="6"
                 image={apiIcon4}
-                name="库存转移"
+                name="库存转移上传"
                 desc="查看说明文档"
                 path="/接口文档/库存转移上传"
               />
@@ -110,7 +110,7 @@ export default class index extends Component {
               <ApiItem
                 span="6"
                 image={apiIcon6}
-                name="库存转移"
+                name="库存转移确认"
                 desc="查看说明文档"
                 path="/接口文档/库存转移确认"
               />
