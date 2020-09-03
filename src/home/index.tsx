@@ -103,7 +103,7 @@ export default class index extends Component {
               <ApiItem
                 span="6"
                 image={apiIcon5}
-                name="轨迹查询"
+                name="服务轨迹"
                 desc="查看说明文档"
                 path="/接口文档/服务轨迹"
               />
@@ -119,7 +119,7 @@ export default class index extends Component {
                 image={apiIcon7}
                 name="时时库存"
                 desc="查看说明文档"
-                path="/接口文档/客户库存获取"
+                path="/接口文档/时时库存"
               />
               <ApiItem
                 span="6"
