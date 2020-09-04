@@ -7,7 +7,7 @@ import ConnetionSystemShow from './components/ConnetionSystemShow';
 import './css/bootstrap.min.css';
 import './css/index.css';
 import logo from './images/logo.png';
-import bgs from './images/bgs.png';
+import bgs from './images/bgs.jpg';
 import right1 from './images/right1.png';
 import left1 from './images/left1.png';
 
